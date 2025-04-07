@@ -262,7 +262,7 @@ footer {
 .theme-toggle-wraper {
     width: 44px;
     height: 24px;
-    border-radius: 50%;
+    border-radius: 20%;
     background-color: var(--main-color-grey-2);
     padding: 2px
 }
@@ -275,6 +275,7 @@ footer {
     width: 20px;
     height: 20px;
     border-radius: 50%;
+    background: var(--main-color-dark-grey);
 }
 
 .dropbase-menu-link {}
