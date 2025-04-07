@@ -191,8 +191,14 @@ body {
 }
 
 .line {
+    height: 1px;
     width: 100%;
     background: var(--main-color-dark-grey);
+}
+
+.footer-line{
+    margin-top: 128px;
+    margin-bottom: 33px;
 }
 
 .advantages-card {
@@ -253,13 +259,23 @@ footer {
 
 .footer-links {}
 
-.theme-toggle-wraper {}
+.theme-toggle-wraper {
+    width: 44px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--main-color-grey-2);
+    padding: 2px
+}
 
 .dropbase-menu-subblock {}
 
 .faq-button {}
 
-.theme-toggle {}
+.theme-toggle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
 
 .dropbase-menu-link {}
 
