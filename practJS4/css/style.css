@@ -7,6 +7,7 @@
     --main-color-white: white;
     --main-color-grey-2: #666666;
     --main-color-green: #24B47E;
+    --main-background: #181818;
 }
 
 
@@ -94,7 +95,7 @@ button {
 }
 
 body {
-    background: var(--main-color-black);
+    background: var(--main-background);
 }
 
 
