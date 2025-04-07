@@ -209,6 +209,12 @@ body {
     width: 100%;
 }
 
+footer {
+    display: flex;
+    gap: 128px;
+    flex-direction: column;
+}
+
 
 
 /* button-click-element-link */
