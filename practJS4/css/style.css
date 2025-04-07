@@ -76,12 +76,16 @@ button {
 .gap-block-8px {
     display: flex;
     gap: 8px;
-    align-items: center;
 }
 
 .gap-block-32px {
     display: flex;
     gap: 32px;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
 }
 
 .none {
