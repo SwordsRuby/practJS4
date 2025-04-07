@@ -50,7 +50,6 @@ button {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    align-items: center;
 }
 
 .flex-column {
@@ -218,13 +217,19 @@ body {
     border-radius: 4px;
     font-size: 12px;
     padding: 7px 11px;
+    font-weight: 500;
 }
 
-.white-link-button {}
+.white-link-button {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 20px;
+}
 
 .button-banner {
     font-size: 14px;
     padding: 9px 17px;
+    font-weight: 400;
 }
 
 .dropbase-menu {}
