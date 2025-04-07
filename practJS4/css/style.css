@@ -1,0 +1,213 @@
+/* variable */
+:root {
+    --main-color-dark-grey: #2A2A2A;
+    --main-color-dark-grey: #1F1F1F;
+    --main-color-grey: #E0E0E0;
+    --main-color-black: black;
+    --main-color-white: white;
+    --main-color-grey-2: #666666;
+    --main-color-green: #24B47E;
+}
+
+
+
+/* zeroing */
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    transition: all .5s;
+    box-sizing: border-box;
+    font-family: "Roboto", Arial, sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    list-style: none;
+}
+
+a,
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+    border: none;
+}
+
+
+
+/* conatiner-templates */
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.my-120 {
+    margin-top: 120px;
+}
+
+.flex-space-between {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.gap-block-28px {
+    display: flex;
+    gap: 28px;
+}
+
+.gap-block-16px {
+    display: flex;
+    gap: 16px;
+}
+
+.gap-block-12px {
+    display: flex;
+    gap: 12px;
+}
+
+.gap-block-8px {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.gap-block-32px {
+    display: flex;
+    gap: 32px;
+}
+
+.none {
+    display: none !important;
+    z-index: 0;
+}
+
+body {
+    background: var(--main-color-black);
+}
+
+
+
+/* text */
+.p-medium {
+    font-size: 18px;
+    color: var(--main-color-grey);
+}
+
+.p-low {
+    font-size: 14px;
+    color: var(--main-color-grey);
+}
+
+.main-title {
+    color: var(--main-color-white);
+    font-size: 48px;
+}
+
+.p-bold-white {
+    font-size: 18px;
+    color: var(--main-color-white);
+}
+
+.banner-p {
+    font-size: 14px;
+    color: var(--main-color-grey);
+    max-width: 441px;
+}
+
+.banner-title {
+    font-weight: 700;
+}
+
+.copy-title {
+    font-size: 16px;
+    color: var(--main-color-grey-2);
+}
+
+.advantages-title {
+    font-size: 18px;
+    color: var(--main-color-white);
+}
+
+.footer-link-title {
+    font-size: 14px;
+    color: var(--main-color-grey-2);
+    margin-bottom: 8px;
+}
+
+.faq-question-title {
+    font-size: 14px;
+    color: var(--main-color-grey);
+}
+
+.dropbase-menu-title {
+    font-size: 14px;
+    color: var(--main-color-grey);
+}
+
+
+
+/* container */
+.left-banner-block {}
+
+.right-banner-block {}
+
+.footer-logo-block {}
+
+.theme-block {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.advantages-img {}
+
+.footer-logo {}
+
+.logo {}
+
+.line {}
+
+.advantages-card {
+    width: 280px;
+}
+
+
+
+/* button-click-element-link */
+.green-button {}
+
+.white-link-button {}
+
+.button-banner {}
+
+.dropbase-menu {}
+
+.grey-link {}
+
+.faq-questions {}
+
+.faq-question-answer {}
+
+.footer-links {}
+
+.theme-toggle-wraper {}
+
+.dropbase-menu-subblock {}
+
+.faq-button {}
+
+.theme-toggle {}
+
+.dropbase-menu-link {}
+
+.dashboard-button {}
+
+.right-dashboard-button {}
