@@ -266,7 +266,7 @@ footer {
 .theme-toggle-wraper {
     width: 44px;
     height: 24px;
-    border-radius: 20%;
+    border-radius: 50%;
     background-color: var(--main-color-grey-2);
     padding: 2px
 }
