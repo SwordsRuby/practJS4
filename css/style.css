@@ -285,7 +285,7 @@ footer {
     font-size: 12px;
     padding: 7px 11px;
     font-weight: 500;
-    color: var(--main-color-white);
+    color: white;
 }
 
 .green-button:hover {
