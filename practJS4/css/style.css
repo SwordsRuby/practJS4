@@ -172,13 +172,20 @@ body {
     align-items: center;
 }
 
-.advantages-img {}
+.footer-logo {
+    width: 160px;
+    height: 31px;
+}
 
-.footer-logo {}
+.logo {
+    width: 123px;
+    height: 24px;
+}
 
-.logo {}
-
-.line {}
+.line {
+    width: 100%;
+    background: var(--main-color-dark-grey);
+}
 
 .advantages-card {
     width: 280px;
