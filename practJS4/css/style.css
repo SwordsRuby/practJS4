@@ -210,9 +210,11 @@ body {
 }
 
 footer {
-    display: flex;
-    gap: 128px;
-    flex-direction: column;
+    padding: 96px 80px;
+}
+
+.header-block{
+    padding: 20px 0;
 }
 
 
@@ -240,7 +242,10 @@ footer {
 
 .dropbase-menu {}
 
-.grey-link {}
+.grey-link {
+    font-size: 14px;
+    color: var(--main-color-grey);
+}
 
 .faq-questions {}
 
