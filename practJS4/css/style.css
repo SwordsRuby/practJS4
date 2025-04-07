@@ -213,11 +213,19 @@ body {
 
 
 /* button-click-element-link */
-.green-button {}
+.green-button {
+    background: var(--main-color-green);
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 7px 11px;
+}
 
 .white-link-button {}
 
-.button-banner {}
+.button-banner {
+    font-size: 14px;
+    padding: 9px 17px;
+}
 
 .dropbase-menu {}
 
