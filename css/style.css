@@ -375,11 +375,11 @@ footer {
     border-radius: 50%;
     background: var(--main-color-dark-grey);
     position: relative;
-    left: 0px;
+    left: 20px;
 }
 
 .theme-toggle-active {
-    left: 20px;
+    left: 0px;
 }
 
 .dropbase-menu-link {
