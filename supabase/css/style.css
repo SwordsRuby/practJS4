@@ -183,6 +183,10 @@ body {
 
 
 /* container */
+.banner {
+    margin-bottom: 96px;
+}
+
 .left-banner-block {
     max-width: 566px;
     width: 100%;
